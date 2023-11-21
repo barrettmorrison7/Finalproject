@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Barrett Morrison
+		Date: 11/13/2023
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<title>Books N Brew</title>
+   <link href="css/styles2.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+
+<a href="index.html"><img src="bnblogo.png" alt="Books N Brew Logo"/></a>
+
+</header> 
+
+<div id = "wrapper">
+		 
+<nav> 
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "menu.html">Menu</a></li>
+	  <li><a href = "contactus.html">Contact US</a></li>
+	  <li><a href = "ourstory.html">Our Story</a></li>
+	</ul>
+</nav> 
+	 
+<article id = "main"> 
+
+<h2>Contact Us</h2>
+	<p>
+At Books N Brew, we cherish the thoughts and opinions of our incredible community. Your feedback is the secret ingredient that helps us brew up the perfect literary experience for you. Whether you've got a suggestion, a question, or just want to share your love for a good book, we're all ears! Fill out the forms below and let your words be the fuel that keeps our literary journey brewing. Cheers to the power of your voice!</p>
+
+<h3>We Care What You Think!</h3>
+	<form id="survey" action="http://www.example.com/redball/survey" method="post">
+	 
+	<fieldset id="custInfo"> <legend> Customer Information </legend> 
+	
+	<div class="formRow">
+	
+	<label for="name"> Name* </label>
+	<input name="custName" id="name" type="text" placeholder="First and Last" />
+	</div>
+	
+	<div class="formRow">
+	<label for="street">Street address </label>
+	<input name="custStreet" id="street" type="text" />
+	</div>
+	
+	<div class="formRow">
+	<label for="city">City</label>
+	<input name="custCity" id="city" type="text" value="Lincoln"/>
+	</div>
+	
+	<div class="formRow">
+	<label for="state">State</label>
+	<input name="custState" id="State" type="text" value="NE" />
+	</div>
+	
+	<div class="formRow">
+	<label for="zip">Postal code</label>
+	<input name="custZip" id="zip" type="text" placeholder="00000"/>
+	</div>
+	
+	<div class="formRow">
+	<label for="phone">Phone Number</label>
+	<input name="custPhone" id="phone" type="tel" placeholder="(000) 000-0000"/>
+	</div>
+	
+	<div class="formRow">
+	<label for="mail">E-mail*</label>
+	<input name="custEmail" id="mail" type="email" />
+	</div>
+	
+	
+	<div class="formRow">
+	<label for="info"> Where did you hear about us? <br />  </label>
+	<select name="infoSrc" id="info" size="5" multiple>
+	<option  value="internet">Internet</option>
+	<option  value="mag">Magazine</option>
+	<option  value="news">Newspaper</option>
+	<option  value="word">Word of Mouth</option>
+	<option  value="Other">Other</option>
+	</select>
+	</div>
+	
+	<input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+	<label for "mailCB">Add me to your mailing list for great coupons and specials</label>
+	
+	
+	</fieldset>
+	
+	<fieldset id="expInfo"> <legend> Share Your Experience at Books N Brew </legend>
+		
+		<div class="formRow">
+		<label for="visit">Date of Visit</label>
+		<input name="visitDate" id="visit" type="date" />
+		</div>
+		
+		
+		<div class="formRow">
+		<label> Was your service friendly?</label>
+		<fieldset class="optGroup">
+		<label for="fYes">Yes</label>
+		<input name="sFriend" id="fYes" value="yes" type="radio" />
+		<label for="fNo">No</label>
+		<input name="sFriend" id="fNo" value="no" type="radio" />
+		</fieldset>
+		</div>
+		
+		<div class="formRow">
+		<label> Was your order correct?</label>
+		<fieldset class="optGroup">
+		<label for="cYes">Yes</label>
+		<input name="oCorrect" id="cYes" value="yes" type="radio" />
+		<label for="cNo">No</label>
+		<input name="oCorrect" id="cNo" value="no" type="radio" />
+		</fieldset>
+		</div>
+		
+		
+		<div class="formRow">
+		<label for="rangeBox">Rate the overall service<br /> (0=poor; 10=great) </label>
+		0
+		<input name="serviceRate" id="rangeBox" type="range" value-"5" step="1" min="0" max="10" />
+		10
+		</div>
+		
+		<label for="commBox">Tell us more about your experience!</label>
+		<textarea name="custExp" id="commBox"></textarea>
+		
+		</fieldset>
+		
+		<div id="buttons">
+		<input type="submit" value="Submit My Survey" />
+		<input type="reset" value="Cancel" />
+		</div>
+		
+	 
+	 </form>
+
+
+</article> <!-- end main -->
+
+<aside> 
+
+<h3>We Value Our Customers!</h3>
+
+	
+
+<figure>
+ 
+
+  <figcaption>
+    <br />
+  
+  </figcaption> 
+</figure>
+
+</aside>   
+
+<footer> 
+
+	<p>Books N Brew<br />
+	4080 O Street &bull; Lincoln, Nebraska 68510<br />
+	<a href = "https://facebook.com" target="_blank">Facebook</a> | <a href = "https://instagram.com" target="_blank">Instagram</a> |<a href = "#14024773727">Telephone</a> | <a href = "#">Email Us</a></p>
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+</div> <!-- end container -->
+
+</body>
+</html>
